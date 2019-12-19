@@ -21,7 +21,8 @@ plot_function <- function(data){
         ) +
         expand_limits(x = 0, y = 0)
         
-    plot_plot <- plotly::ggplotly(plot_plot)
+    plot_plot <- plotly::ggplotly(plot_plot) %>% 
+        config(displayModeBar = FALSE)
     
     return(plot_plot)
     

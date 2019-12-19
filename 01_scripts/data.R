@@ -9,8 +9,8 @@ tools_df <- tibble(
 
 
 skills_df <- tibble(
-    skill = c("Data Visualization","Communication","Machine Learning"),
-    score = c(95,90, 80)
+    skill = c("Data Visualization","Communication","Machine Learning", "Analysis", "Data Wrangling"),
+    score = c(95,90, 80, 90, 94)
 )
 
 personality_tbl <- tibble(
@@ -26,6 +26,6 @@ personality_tbl <- tibble(
     Humour = c(20,0,20)
 )
 
-write_rds(tools_df, "chris_resume/02_data/tools_df.rds")
-write_rds(skills_df, "chris_resume/02_data/skills_df.rds")
-write_rds(personality_tbl, "chris_resume/02_data/personality_tbl.rds")
+write_rds(tools_df, "02_data/tools_df.rds")
+write_rds(skills_df, "02_data/skills_df.rds")
+write_rds(personality_tbl, "02_data/personality_tbl.rds")
