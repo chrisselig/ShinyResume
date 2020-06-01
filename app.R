@@ -20,11 +20,7 @@ library(tidyverse)
 # Plotting libraries
 library(plotly)
 library(ggthemes)
-library(viridis)
-library(patchwork)
-library(hrbrthemes)
 library(fmsb)
-library(colormap)
 
 # Read in Data
 tools_df <- read_rds("../ShinyResume/02_data/tools_df.rds")
